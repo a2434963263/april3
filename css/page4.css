@@ -1,0 +1,146 @@
+.pg4topWire,.pg4bottomWire{
+	position: absolute;
+	width: 3px;
+	height: 200px;
+	background: white;
+	left: 50%;
+	margin-left: -2px;
+	/*top: 8%;*/
+	opacity: 0;
+	top: -220px;
+	transition:all  1s ease 2s;
+}
+.pg4bottomWire{
+	opacity: 0;
+	top: 980px;
+}
+.sty1 .pg4bottomWire{
+	top: 70%;
+	opacity:1;
+}
+.sty1 .pg4topWire{
+	top:8%;
+	opacity:1;
+}
+.circle,.circle::before,.circle::after,.circle2,.circle2::before,.circle2::after{
+	width: 14px;
+	height: 14px;
+	background: white;
+	border-radius: 50%;
+}
+.circle,.circle2{
+	position: absolute;
+	top: 240px;
+	margin-left: -5px;
+}
+.circle::before{
+	content: "";
+	display: block;
+	margin-top: -25px;
+}
+.circle::after{
+	content: "";
+	display: block;
+	margin-top: 40px;
+}
+.circle2{
+	top: -60px;
+}
+.circle2::before{
+	content: "";
+	display: block;
+	margin-top: -25px;
+}
+.circle2::after{
+	content: "";
+	display: block;
+	margin-top: 40px;
+}
+.headPortrait{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	left: 50%;
+	top: 48%;
+	margin-left: -5px;
+	border-radius: 50%;
+	border: 7px solid black;
+	transition:all 1s ease 2.5s;
+	/*width: 140px;
+	height: 140px;
+	left: 50%;
+	margin-left: -77px;
+	top: 41%;*/
+	z-index: 99;
+	/*background: url(../images/ooopic_1552466419.png);*/
+	/*background-size: 140px 140px;*/
+	overflow: hidden;
+}
+.headPortrait img{
+	width: 140px;
+	height: 140px;
+	position: absolute;
+	left: 50%;
+	margin-left: -70px;
+	top:50%;
+	margin-top: -70px;
+}
+.circlehide{
+	position: absolute;
+	border-radius: 50%;
+	border: 7px solid transition;
+	width: 140px;
+	height: 140px;
+	left: 50%;
+	margin-left: -77px;
+	top: 41%;
+	z-index: 99;
+	color: white;
+}
+.sty1 .headPortrait{
+	width: 140px;
+	height: 140px;
+	left: 50%;
+	margin-left: -77px;
+	top: 41%;
+	transition:all 1s ease 1s;
+}
+.bg4meg{
+	width: 0px;
+	height: 0px;
+	border-bottom: 3px solid #00B1C1;
+	position: absolute;
+	line-height: 35px;
+	text-align: center;
+	font-size: 22px;
+	overflow: hidden;
+}
+.qq{
+	top: -36px;
+	left: -270px;
+	transition:all 1s ease 1.5s;
+	opacity: 0;
+}
+.phone{
+	left: -352px;
+	top: 33px;
+	transition:all 1s ease 2s;
+	opacity: 0;
+}
+.progect{
+	left: 147px;
+	top: 35px;
+	transition:all 1s ease 2.5s;
+	opacity: 0;
+}
+.wei{
+	left: 73px;
+	top: 113px;
+	transition:all 1s ease 3s;
+	opacity: 0;
+}
+.sty1 .qq2,.sty1 .phone2,.sty1 .progect2,.sty1 .wei2{
+	width: 350px;
+	height: 35px;
+	opacity: 1;
+}
